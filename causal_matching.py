@@ -47,8 +47,8 @@ X=(data[['sex','high_school','indigeneity','age']]).to_numpy()
 Y=data['smoker'].to_numpy()
 smoke_idx=(Y==1)
 
-#Lets estimate the probability that every observation is a smoker, logit time
-#I'm gonna use sklearn's logit, cause I'm a little bitch
+#Lets estimate the probability that every observation is a smoker. Its logit time.
+#I'm gonna use sklearn's logit, beacuse once you've written your own you never have to do it again 
 
 from sklearn.linear_model import LogisticRegression
 
